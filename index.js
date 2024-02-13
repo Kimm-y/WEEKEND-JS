@@ -41,7 +41,7 @@ const card = document.createElement('div')
 card.classList.add('card')
 card.innerHTML = `
 
-<div class = "container" > <h1>${result.corrections[0]}</h2>
+<div class = "container" > <h1>${card.corrections[0]}</h2>
 `
 
 container.appendChild(card)
